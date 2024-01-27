@@ -121,7 +121,7 @@
       </div>
       <!-- floating section -->
       <!-- fixed inset-x-[25%] inset-y-[75%]  -->
-      <div class="w-9/12 grid grid-cols-5 gap-4 text-center bg-white absolute  lg:-bottom-16 lg:left-48 p-2 rounded-lg drop-shadow-xl floating-fruit
+      <div class="w-9/12 grid grid-cols-5 gap-4 text-center bg-white absolute  lg:-bottom-16 lg:left-48 p-2 rounded-lg drop-shadow-xl hidden md:flex justify-evenly p-4
         ">
         <div class="text-center grid justify-items-center">
           <img src="images/fruit1.png" alt="">
@@ -146,6 +146,48 @@
       </div>
     </section>
   </header>
+  <!-- countdown -->
+  <section class="flex mt-36 container mx-auto justify-between items-center">
+    <div>
+         <h3 class="font-bold text-4xl leading-snug p-2">Deal of the day</h3>
+         <p class="leading-snug p-2">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div>
+      <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:1;"></span>
+          </span>
+          days
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:2;"></span>
+          </span>
+          sec
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
   <script src="tailwind.config.js"></script>
 </body>
 
