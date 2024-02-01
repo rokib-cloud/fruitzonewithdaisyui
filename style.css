@@ -1,13 +1,24 @@
 /* navbar background */
-.nav-bg{
-    background-color:#F85559;
+.nav-bg {
+    background-color: #F85559;
 }
-.bg-1{
+/* background-image*/
+.bg-1 {
     background-image: url(images/banner1.png);
     background-size: cover;
 }
-.team-background-image{
+/* team background image */
+.team-background-image {
     background-image: url(images/team.png);
     background-size: cover;
     filter: brightness(80%);
+}
+/* horizontal rule */
+hr {
+    width: 30%;
+    padding: 0.5rem;
+}
+/* custom class */
+.float-right{
+    float: right;
 }
