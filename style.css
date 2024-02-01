@@ -6,3 +6,8 @@
     background-image: url(images/banner1.png);
     background-size: cover;
 }
+.team-background-image{
+    background-image: url(images/team.png);
+    background-size: cover;
+    filter: brightness(80%);
+}
