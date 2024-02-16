@@ -22,3 +22,8 @@ hr {
 .float-right{
     float: right;
 }
+
+/* footer backgound color */
+.footer-bg{
+    background-color: black;
+}
